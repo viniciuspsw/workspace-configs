@@ -1,0 +1,19 @@
+{
+    "bootstrapped": true,
+    "in_process_packages":
+    [
+    ],
+    "installed_packages":
+    [
+        "A File Icon",
+        "DotENV",
+        "INI",
+        "JSX",
+        "Laravel Blade AutoComplete",
+        "Laravel Blade Highlighter",
+        "MarkdownEditing",
+        "Package Control",
+        "Sass",
+        "TypeScript Syntax"
+    ]
+}
