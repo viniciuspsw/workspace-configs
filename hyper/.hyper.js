@@ -147,7 +147,9 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyper-seti-monokai'
+    'hyper-seti-monokai',
+    'hyper-tabs-enhanced',
+    'hyperterm-cursor'
   ],
 
   // in development, you can create a directory under
