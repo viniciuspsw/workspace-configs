@@ -1,10 +1,9 @@
 {
-  "editor.fontSize": 16,
-  "editor.fontFamily": "'Fira Code'",
+  "editor.fontSize": 18,
   "editor.fontLigatures": true,
   "workbench.iconTheme": "material-icon-theme",
   "window.zoomLevel": 0,
-  "extensions.ignoreRecommendations": false,
+  "extensions.ignoreRecommendations": true,
   "emmet.syntaxProfiles": {
     "javascript": "jsx",
     "nunjucks": "html"
@@ -22,7 +21,6 @@
   "editor.parameterHints.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "explorer.confirmDragAndDrop": false,
-  "liveshare.featureSet": "insiders",
   "explorer.confirmDelete": false,
   "typescript.tsserver.log": "verbose",
   "terminal.integrated.fontSize": 18,
@@ -47,9 +45,12 @@
       "autoFix": true
     }
   ],
-  "editor.rulers": [80, 120],
-  "editor.formatOnSave": false,
+  "editor.rulers": [
+    80,
+    120
+  ],
   "editor.tabSize": 2,
   "workbench.startupEditor": "newUntitledFile",
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace"
 }

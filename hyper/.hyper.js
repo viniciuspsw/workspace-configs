@@ -103,10 +103,20 @@ module.exports = {
     //
     // PowerShell on Windows
     // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
-    shell: 'C:\\Program Files\\Git\\bin\\bash.exe',
+    
+    /**
+     * ZSH
+     * shell: 'C:\\Windows\\System32\\cmd.exe',
+     * shellArgs: ['--login', '-i', '/c wsl'],
+     */
 
-    // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
-    // by default `['--login']` will be used
+    /**
+     * Bash
+     * shell: 'C:\\Program Files\\Git\\bin\\bash.exe',
+     * shellArgs: ['--login'],
+     */
+
+    shell: 'C:\\Program Files\\Git\\bin\\bash.exe',
     shellArgs: ['--login'],
 
     // for environment variables
@@ -149,7 +159,8 @@ module.exports = {
   plugins: [
     'hyper-seti-monokai',
     'hyper-tabs-enhanced',
-    'hyperterm-cursor'
+    'hyperterm-cursor',
+    'hyper-quickssh'
   ],
 
   // in development, you can create a directory under
