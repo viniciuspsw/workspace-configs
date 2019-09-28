@@ -9,10 +9,10 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 18,
+    fontSize: 20,
 
     // font family with optional fallbacks
-    fontFamily: '"Source Code Pro"',
+    fontFamily: '"Cascadia Code"',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
