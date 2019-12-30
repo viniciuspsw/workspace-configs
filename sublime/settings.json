@@ -1,6 +1,11 @@
 {
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
 	"font_face": "Cascadia Code",
-	"font_size": 17,
+	"font_options":
+	[
+		"no_round"
+	],
+	"font_size": 19,
 	"ignored_packages":
 	[
 		"Markdown",
@@ -11,8 +16,10 @@
 		"node_modules/"
 	],
 	"tab_size": 4,
+	"theme_font_options":
+	[
+		"no_italic"
+	],
 	"translate_tabs_to_spaces": true,
-	"word_wrap": false,
-	"font_options": ["no_round"],
-	"theme_font_options": ["no_italic"]
+	"word_wrap": false
 }

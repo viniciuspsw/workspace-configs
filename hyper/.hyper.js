@@ -156,12 +156,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [
-    'hyper-seti-monokai',
-    'hyper-tabs-enhanced',
-    'hyperterm-cursor',
-    'hyper-quickssh'
-  ],
+  plugins: ['hyper-seti-monokai', 'hyperterm-cursor', "hyper-dracula"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
