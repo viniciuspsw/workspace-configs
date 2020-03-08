@@ -1,1 +1,1 @@
--novid -high -threads 4 +cl_forcepreload 1 +mat_queue_mode 2 +r_dynamic 0 -nod3d9ex1
+-novid -high -threads 6 +cl_forcepreload 1 +mat_queue_mode 2 +r_dynamic 0 -nod3d9ex1

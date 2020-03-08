@@ -116,6 +116,7 @@ module.exports = {
      * shellArgs: ['--login'],
      */
 
+    // shell: 'C:\\Windows\\System32\\bash.exe',
     shell: 'C:\\Program Files\\Git\\bin\\bash.exe',
     shellArgs: ['--login'],
 
@@ -156,7 +157,12 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyper-seti-monokai', 'hyperterm-cursor', "hyper-dracula"],
+  plugins: [
+    'hyper-seti-monokai',
+    'hyperterm-cursor',
+    "hyper-dracula",
+    "shades-of-purple-hyper"
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
