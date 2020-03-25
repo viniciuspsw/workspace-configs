@@ -103,7 +103,7 @@ module.exports = {
     //
     // PowerShell on Windows
     // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
-    
+
     /**
      * ZSH
      * shell: 'C:\\Windows\\System32\\cmd.exe',
@@ -121,7 +121,7 @@ module.exports = {
     shellArgs: ['--login'],
 
     // for environment variables
-    env: {},
+    env: { TERM: 'cygwin' },
 
     // set to `false` for no bell
     bell: 'SOUND',
