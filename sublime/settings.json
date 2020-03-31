@@ -1,21 +1,23 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
 	"font_face": "Cascadia Code",
 	"font_options":
 	[
 		"no_round"
 	],
-	"font_size": 19,
+	"font_size": 18,
 	"ignored_packages":
 	[
 		"Markdown",
-		"Vintage"
+		"Vintage",
+		"zzz A File Icon zzz"
 	],
 	"index_exclude_patterns":
 	[
 		"node_modules/"
 	],
 	"tab_size": 4,
+	"theme": "Adaptive.sublime-theme",
 	"theme_font_options":
 	[
 		"no_italic"
