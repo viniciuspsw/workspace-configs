@@ -12,10 +12,10 @@ module.exports = {
     fontSize: 18,
 
     // font family with optional fallbacks
-    fontFamily: '"Cascadia Code"',
+    fontFamily: '"Fira Code"',
 
     // default font weight: 'normal' or 'bold'
-    fontWeight: "normal",
+    fontWeight: "500",
 
     // font weight for bold characters: 'normal' or 'bold'
     fontWeightBold: "bold",
@@ -36,7 +36,7 @@ module.exports = {
     cursorShape: "BLOCK",
 
     // set to `true` (without backticks and without quotes) for blinking cursor
-    cursorBlink: false,
+    cursorBlink: true,
 
     // color of the text
     foregroundColor: "#fff",
@@ -157,7 +157,14 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["shades-of-purple-hyper", "hyperterm-cursor"],
+  plugins: [
+    "shades-of-purple-hyper",
+    "hyper-tab-icons",
+    "hyperterm-cursor",
+    "hyper-tabs-enhanced",
+    "hyper-font-smoothing",
+    "hyperterm-blink",
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here

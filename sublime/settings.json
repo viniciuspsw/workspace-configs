@@ -5,12 +5,11 @@
 	[
 		"no_round"
 	],
-	"font_size": 18,
+	"font_size": 15,
 	"ignored_packages":
 	[
 		"Markdown",
-		"Vintage",
-		"zzz A File Icon zzz"
+		"Vintage"
 	],
 	"index_exclude_patterns":
 	[
