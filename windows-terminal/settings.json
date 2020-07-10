@@ -1,0 +1,107 @@
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "defaultProfile": "{00000000-0000-0000-ba54-000000000002}",
+  "copyOnSelect": false,
+  "copyFormatting": false,
+  "profiles": {
+    "defaults": {},
+    "list": [
+      {
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "name": "Prompt de comando",
+        "commandline": "cmd.exe",
+        "hidden": false
+      },
+      {
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "name": "Windows PowerShell",
+        "commandline": "powershell.exe",
+        "hidden": false
+      },
+      {
+        "guid": "{00000000-0000-0000-ba54-000000000002}",
+        "closeOnExit": true,
+        "colorScheme": "Shades of Purple",
+        "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
+        "historySize": 9001,
+        "icon": "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+        "name": "Bash",
+        "snapOnInput": true,
+        "startingDirectory": "%USERPROFILE%",
+        "cursorShape": "filledBox",
+        "useAcrylic": false,
+        "fontFace": "JetBrains Mono",
+        "antialiasingMode": "cleartype",
+        "padding": "16, 8, 16, 16",
+        "fontSize": 14,
+        "fontWeight": 500
+      },
+      {
+          "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+          "hidden": false,
+          "name": "Azure Cloud Shell",
+          "source": "Windows.Terminal.Azure"
+      }
+    ]
+  },
+
+  "schemes": [
+    {
+      "name": "Shades of Purple",
+      "cursorColor": "#FAD000",
+      "selectionBackground": "#FFFFFF",
+      "background": "#1E1D40",
+      "foreground": "#FFFFFF",
+      "black": "#000000",
+      "blue": "#6943ff",
+      "cyan": "#80fcff",
+      "green": "#3ad900",
+      "purple": "#ff2c70",
+      "red": "#C50F1F",
+      "white": "#c7c7c7",
+      "yellow": "#FAD000",
+      "brightBlack": "#808080",
+      "brightBlue": "#0066ff",
+      "brightCyan": "#00ffff",
+      "brightGreen": "#33ff00",
+      "brightPurple": "#cc00ff",
+      "brightRed": "#ff0000",
+      "brightWhite": "#ffffff",
+      "brightYellow": "#ffff00"
+    }
+  ],
+
+  "keybindings": [
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "keys": "ctrl+shift+c"
+    },
+    {
+      "command": "paste",
+      "keys": "ctrl+shift+v"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "vertical",
+        "splitMode": "duplicate"
+      },
+      "keys": "ctrl+shift+d"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "horizontal",
+        "splitMode": "duplicate"
+      },
+      "keys": "ctrl+shift+e"
+    }
+  ]
+}
