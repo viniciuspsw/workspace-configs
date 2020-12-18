@@ -3,8 +3,9 @@
 [user]
   name = Vinicius Silva
   email = viniciuspsw@gmail.com
+	signingkey = 9B64A0861FDE6727
 [alias]
-  ci = commit
+  ci = commit -S
   co = checkout
   cm = checkout master
   cb = checkout -b
@@ -18,4 +19,3 @@
   rollback = reset --soft HEAD~1
   pl = pull origin
   ps = push origin
-  
