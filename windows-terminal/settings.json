@@ -3,6 +3,7 @@
   "defaultProfile": "{00000000-0000-0000-ba54-000000000002}",
   "copyOnSelect": false,
   "copyFormatting": false,
+  "multiLinePasteWarning": false,
   "profiles": {
     "defaults": {},
     "list": [

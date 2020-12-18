@@ -1,5 +1,6 @@
 [credential]
   helper = manager
+	# helper = osxkeychain
 [user]
   name = Vinicius Silva
   email = viniciuspsw@gmail.com
