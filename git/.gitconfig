@@ -1,10 +1,12 @@
 [credential]
   helper = manager
 	# helper = osxkeychain
+
 [user]
   name = Vinicius Silva
   email = viniciuspsw@gmail.com
-	signingkey = 9B64A0861FDE6727
+  signingkey = 27A66E1C975BBCAA
+
 [alias]
   ci = commit -S
   co = checkout
@@ -20,3 +22,20 @@
   rollback = reset --soft HEAD~1
   pl = pull origin
   ps = push origin
+  cp = cherry-pick --
+
+[core]
+  autocrlf = input
+  eol = lf
+
+[filter "lfs"]
+  process = git-lfs filter-process
+  required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+
+[commit]
+  gpgsign = true
+
+[sequence]
+  editor = nano
